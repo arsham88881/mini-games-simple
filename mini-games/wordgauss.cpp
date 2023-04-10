@@ -69,6 +69,7 @@ void hangMan() {
 	cout << "ready!!!" << endl;
 	cout << "fraud ==> (word are a fruit) " << endl;
 	system("pause");
+	system("cls");
 	char* c_word = random_w();
 	int guass = strlen(c_word) + 3;
 	if (hang_prosses(c_word, guass)) {

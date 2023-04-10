@@ -17,6 +17,7 @@ void numberGuass() {
 	cout << "in process..." << endl;
 	Sleep(2000);
 	system("pause");
+	system("cls");
 	do {
 		cout << "guess number between 0 to 100 ~~>  ";
 		cin >> user_guass;

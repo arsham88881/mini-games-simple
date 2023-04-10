@@ -134,7 +134,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="conundrum.cpp" />
+    <ClInclude Include="rockPaper.cpp" />
     <ClInclude Include="numberguass.cpp" />
     <ClInclude Include="wordgauss.cpp" />
   </ItemGroup>

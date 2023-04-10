@@ -3,6 +3,7 @@
 #include <windows.h>
 #include "wordgauss.cpp"
 #include "numberguass.cpp"
+#include "rockPaper.cpp"
 
 using namespace std;
 
@@ -12,7 +13,7 @@ int menu() {
 	cout << "choose your game : "<<endl
 		<< "[1] : word gauss game " << endl
 		<< "[2] : number gauss game " << endl
-		<< "[3] : conundrum game " << endl
+		<< "[3] : Rock Paper and scissors game " << endl
 		<< "[4] : Exit " << endl << endl;
 
 	cout << "your choose : ~> ";
@@ -27,14 +28,14 @@ int main() {
 	bool flag = 1;
 	while (flag) {
 		switch (menu()) {
-			case 1: { //word-gauss.h
+			case 1: { //wordGauss.cpp
 				hangMan();
 			}break;
-			case 2: { //number-guass.h
+			case 2: { //numberGuass.cpp
 				numberGuass();
 			}break;
-			case 3: { //conudrum.h
-
+			case 3: { //rockPaper.cpp
+				rockPaper();
 			}break;
 			case 4: {//Exit game
 				flag = 0;

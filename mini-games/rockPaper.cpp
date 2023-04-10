@@ -4,27 +4,33 @@
 #include <ctime>
 
 using namespace std;
-/*
+
 enum possible {
-	Rock=1, //1
-	paper=2,  //2
-	Scissors=3  //3
+	Rock = 1, //1
+	paper = 2,  //2
+	Scissors = 3  //3
 };
 
-int main() {
+void rockPaper() {
 	srand(time(0));
-	int comp = rand() % 3+1;
-	int user=0;
+	int comp = rand() % 3 + 1;
+	int user = 0;
 	int c_rand = 0;
 	int user_rand = 0;
 	int rand = 1;
+	cout << "welcome to Rock Paper Scissors game !!!" << endl;
+	cout << "ready!!!" << endl;
+	system("pause");
+	system("cls");
 	do {
-		if (rand ==4 || user_rand == 2 || c_rand == 2) {
+		if (rand == 4 || user_rand == 2 || c_rand == 2) {
 			if (user_rand > c_rand) {
 				cout << "your won!!! hooray" << endl;
+				Sleep(3000);
 			}
 			else {
 				cout << "your lose!!! " << endl;
+				Sleep(3000);
 			}
 			break;
 		}
@@ -85,10 +91,6 @@ int main() {
 			cout << "invalid input!!!! try again" << endl;
 			Sleep(2500);
 		}
-		
-		
+		system("cls");
 	} while (true);
-
-	return 0;
 }
-*/
