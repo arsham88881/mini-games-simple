@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
+#include "wordgauss.cpp"
 
 using namespace std;
 
@@ -20,12 +21,13 @@ int menu() {
 
 	return choose;
 }
+
 int main() {
 	bool flag = 1;
 	while (flag) {
 		switch (menu()) {
 			case 1: { //word-gauss.h
-
+				hangMan();
 			}break;
 			case 2: { //number-guass.h
 
@@ -43,4 +45,6 @@ int main() {
 		}
 		system("cls");
 	}
+	
+    return 0;
 }
