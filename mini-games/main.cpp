@@ -2,6 +2,7 @@
 #include <string>
 #include <windows.h>
 #include "wordgauss.cpp"
+#include "numberguass.cpp"
 
 using namespace std;
 
@@ -30,7 +31,7 @@ int main() {
 				hangMan();
 			}break;
 			case 2: { //number-guass.h
-
+				numberGuass();
 			}break;
 			case 3: { //conudrum.h
 
